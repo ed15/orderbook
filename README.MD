@@ -37,7 +37,7 @@ chmod +x deploy_aws.sh
 
 ./main.sh
 
-## MENU DE DESPLIEGUE, SELECCIONE:
+ MENU DE DESPLIEGUE, SELECCIONE:
 
 1. Local ---> Kubernetes Nativo
 2. Nube ---> AWS
@@ -72,7 +72,7 @@ chmod +x deploy_aws.sh
 
 ./main.sh
 
-## MENU DE DESPLIEGUE, SELECCIONE:
+ MENU DE DESPLIEGUE, SELECCIONE:
 
 
 1. Local ---> Kubernetes Nativo
