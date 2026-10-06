@@ -147,8 +147,8 @@ kubectl get svc orderbook-service
 
 # Guia peticiones API
 
+Para consultar la ip: kubectl get svc
 localhost = ip del servicio
-kubectl get svc
 
 Para consultar las billeteras:
 curl -s http://localhost:8080/wallets | jq .
