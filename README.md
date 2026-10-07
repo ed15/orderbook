@@ -184,11 +184,11 @@ curl -X POST http://localhost:8080/orders \
 
 Para consultar las ultima transaccion:
 
-curl -s http://10.101.173.18:8080/trades | jq '.[-1:]'
+curl -s http://localhost:8080/trades | jq '.[-1:]'
 
 Para consultar las dos ultimas transacciones:
 
-curl -s http://10.101.173.18:8080/trades | jq '.[-2:]'
+curl -s http://localhost:8080/trades | jq '.[-2:]'
 
 Para consultar las metricas:
 
